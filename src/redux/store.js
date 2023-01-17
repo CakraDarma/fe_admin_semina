@@ -19,6 +19,10 @@ const store = configureStore({
 		payments: paymentsReducer,
 		orders: ordersReducer,
 	},
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware({
+			serializableCheck: false,
+		}),
 });
 
 export default store;

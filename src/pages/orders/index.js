@@ -6,7 +6,7 @@ import SearchInput from '../../components/SearchInput';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchOrders, setPage, setDate } from '../../redux/orders/actions';
 import AlertMessage from '../../components/Alert';
-import { fetchListEvents } from '../../redux/lists/actions';
+// import { fetchListEvents } from '../../redux/lists/actions';
 import DateRange from '../../components/InputDate';
 import { formatDate } from '../../utils/formatDate';
 
